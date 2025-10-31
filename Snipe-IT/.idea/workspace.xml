@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d789baac-7997-46c7-9a27-9bfb25139a3f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/1b4572cc1b4459c7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/2e6c28695e7faf8f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/62af46ec94d7fcd3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/6e80e2af5ac50d85.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/6e8c07f2d8d04bd3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/855ba089ed92423e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugin/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugin/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugin/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/plugin/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-result/16d7733d-5f44-4e8a-a656-edd2372221a8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-result/18e6099f-be39-4546-9ed2-19c92759af4b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-result/1e0fc7a1-44a6-45f9-9be6-e62d0d00d8ea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-result/28612964-5bda-4601-8932-6194965200b1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-result/2dada057-f74a-4c3b-998e-054d4ddf89cb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-result/31ca7a39-8f7a-44e8-a5e1-86b2aeb74920-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-result/348b0416-5f6a-4987-8b45-16a9fca25899-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-result/401c31ad-3ab5-4814-bed6-177cc5795fa8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-result/49314ccd-7562-47b6-bbdc-7608417e2e7e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-result/4cdadb2f-eee5-4b75-8db1-94b8bd2d5a54-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-result/4d427f14-655c-4b8d-9767-49284f64400c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-result/719c177a-5df8-42a4-bd85-fd47ddafa69b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-result/7b5055ef-7d85-48e2-aa09-2eddc4ed5796-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-result/98e13864-ee40-44bd-ae5f-665a25705341-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/assets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/report.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test_CustomFields_it.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_CustomFields_it.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test_login_paget.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_login_paget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test_setting_it.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test_setting_it.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/run_snipeit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>snipeit_mysql</find>
+      <find>print</find>
+      <find>select</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/login.py" />
+        <option value="$PROJECT_DIR$/venv/setting_CustomFields.py" />
+        <option value="$PROJECT_DIR$/setting_CustomFields.py" />
+        <option value="$PROJECT_DIR$/setting.py" />
+        <option value="$PROJECT_DIR$/weiyamei_Test.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/mysql_connect.py" />
+        <option value="$PROJECT_DIR$/CustomFields.py" />
+        <option value="$PROJECT_DIR$/status_labels.py" />
+        <option value="$PROJECT_DIR$/setting_IT.py" />
+        <option value="$PROJECT_DIR$/test_status_labels.py" />
+        <option value="$PROJECT_DIR$/Database_connect.py" />
+        <option value="$PROJECT_DIR$/login_page.py" />
+        <option value="$PROJECT_DIR$/test_CustomFields.py" />
+        <option value="$PROJECT_DIR$/base/conftest.py" />
+        <option value="$PROJECT_DIR$/po/test_login_page.py" />
+        <option value="$PROJECT_DIR$/test_case/test0001_login_paget.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/base/browser_driver.py" />
+        <option value="$PROJECT_DIR$/base/home_page.py" />
+        <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/po/setting_IT.py" />
+        <option value="$PROJECT_DIR$/po/login_page.py" />
+        <option value="$PROJECT_DIR$/base/base_page_other.py" />
+        <option value="$PROJECT_DIR$/base/event.py" />
+        <option value="$PROJECT_DIR$/po/CustomFields.py" />
+        <option value="$PROJECT_DIR$/base/base_page.py" />
+        <option value="$PROJECT_DIR$/po/status_labels.py" />
+        <option value="$PROJECT_DIR$/test_case/test_CustomFields_it.py" />
+        <option value="$PROJECT_DIR$/test_case/test_login_paget.py" />
+        <option value="$PROJECT_DIR$/test_case/test_setting_it.py" />
+        <option value="$PROJECT_DIR$/test_case/test_status_labels.py" />
+        <option value="$PROJECT_DIR$/run_snipeit.py" />
+        <option value="$PROJECT_DIR$/test_cases/test_login_paget.py" />
+        <option value="$PROJECT_DIR$/test_cases/test_setting_it.py" />
+        <option value="$PROJECT_DIR$/test_cases/test_CustomFields_it.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="50" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Snipe-IT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Snipe-IT" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_case" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nimi\PycharmProjects\Snipe-IT\test_case" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nimi\PycharmProjects\Snipe-IT\po" />
+      <recent name="C:\Users\nimi\PycharmProjects\Snipe-IT\test_case" />
+      <recent name="C:\Users\nimi\PycharmProjects\Snipe-IT\test_case\.pytest_cache" />
+      <recent name="C:\Users\nimi\PycharmProjects\Snipe-IT" />
+      <recent name="E:\Users\U\PycharmProjects\Snipe-IT" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.run_snipeit">
+    <configuration name="report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Snipe-IT/report/report.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Snipe-IT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\U\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_snipeit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Snipe-IT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\U\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_snipeit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="status_labels" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Snipe-IT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\U\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/po" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/po/status_labels.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_login_paget" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Snipe-IT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\U\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_cases/test_login_paget.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_status_labels" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Snipe-IT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\U\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test_status_labels.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="Snipe-IT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\U\AppData\Local\Programs\Python\Python37-32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.report.html" />
+      <item itemvalue="Python.status_labels" />
+      <item itemvalue="Python.test_status_labels" />
+      <item itemvalue="Python.run_snipeit" />
+      <item itemvalue="Python.test_login_paget" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.run_snipeit" />
+        <item itemvalue="Python.test_login_paget" />
+        <item itemvalue="JavaScript Debug.report.html" />
+        <item itemvalue="Python.test_status_labels" />
+        <item itemvalue="Python.status_labels" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d789baac-7997-46c7-9a27-9bfb25139a3f" name="Default Changelist" comment="" />
+      <created>1761125927416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761125927416</updated>
+      <workItem from="1761125932252" duration="7992000" />
+      <workItem from="1761143033306" duration="8421000" />
+      <workItem from="1761152063085" duration="35000" />
+      <workItem from="1761182165397" duration="52393000" />
+      <workItem from="1761309065145" duration="16945000" />
+      <workItem from="1761457076737" duration="954000" />
+      <workItem from="1761501909086" duration="2097000" />
+      <workItem from="1761504127334" duration="1095000" />
+      <workItem from="1761505903321" duration="1114000" />
+      <workItem from="1761507209385" duration="851000" />
+      <workItem from="1761508473448" duration="1381000" />
+      <workItem from="1761510638325" duration="54631000" />
+      <workItem from="1761577623593" duration="16739000" />
+      <workItem from="1761655814719" duration="20492000" />
+      <workItem from="1761691374659" duration="460000" />
+      <workItem from="1761705810180" duration="346000" />
+      <workItem from="1761706840146" duration="2310000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="188256000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1549" height="694" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7915567" visible="true" weight="0.23138833" />
+      <window_info id="Structure" order="1" sideWeight="0.20844327" side_tool="true" weight="0.22918318" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946293" weight="0.32740214" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989259" weight="0.37366548" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49960348" weight="0.3291815" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49960348" weight="0.3291815" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.16336241" side_tool="true" weight="0.21708184" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49722442" weight="0.4341637" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.8366376" weight="0.68149465" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32997987" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Snipe_IT$status_labels.coverage" NAME="status_labels Coverage Results" MODIFIED="1761307504485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Snipe_IT$test_login_paget.coverage" NAME="test_login_paget Coverage Results" MODIFIED="1761708439841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_cases" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/math.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1004" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/selenium/webdriver/support/select.py" />
+    <entry file="file://$PROJECT_DIR$/pytest.ini" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/web_driver.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="383" column="8" selection-start-line="383" selection-start-column="8" selection-end-line="383" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#14#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/home_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.7.egg/pip/__init__.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/selenium/webdriver/remote/webelement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="193" column="8" selection-start-line="193" selection-start-column="8" selection-end-line="193" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base_page_other.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="e#30#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/po/setting_IT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="34" column="33" lean-forward="true" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/selenium/webdriver/common/by.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Database_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+          <folding>
+            <element signature="e#24#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/po/status_labels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1723">
+          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/event.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/po/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/report.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#622#626#0" expanded="true" />
+            <element signature="e#690#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/po/CustomFields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+          <folding>
+            <element signature="e#24#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_setting_it.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_login_paget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="54" selection-start-line="54" selection-end-line="60" />
+          <folding>
+            <element signature="e#23#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_CustomFields_it.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_cases/test_status_labels.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-169">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-report/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_snipeit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
